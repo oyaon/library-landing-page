@@ -1,0 +1,50 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <rect width="100%" height="100%" fill="#f8fafc"/>
+  
+  <!-- Library shelves -->
+  <rect x="50" y="50" width="500" height="300" fill="#eef2ff" stroke="#4F46E5" stroke-width="2" rx="5"/>
+  
+  <!-- Books on shelves -->
+  <g transform="translate(80, 80)">
+    <!-- Shelf 1 -->
+    <rect x="0" y="0" width="30" height="80" fill="#4F46E5"/>
+    <rect x="40" y="0" width="35" height="80" fill="#6366F1"/>
+    <rect x="85" y="0" width="25" height="80" fill="#8B5CF6"/>
+    <rect x="120" y="0" width="40" height="80" fill="#4F46E5"/>
+    <rect x="170" y="0" width="30" height="80" fill="#6366F1"/>
+    <rect x="210" y="0" width="35" height="80" fill="#4F46E5"/>
+    <rect x="255" y="0" width="25" height="80" fill="#8B5CF6"/>
+    <rect x="290" y="0" width="40" height="80" fill="#6366F1"/>
+    <rect x="340" y="0" width="30" height="80" fill="#4F46E5"/>
+    
+    <!-- Shelf 2 -->
+    <rect x="0" y="120" width="35" height="80" fill="#6366F1"/>
+    <rect x="45" y="120" width="30" height="80" fill="#4F46E5"/>
+    <rect x="85" y="120" width="40" height="80" fill="#8B5CF6"/>
+    <rect x="135" y="120" width="25" height="80" fill="#6366F1"/>
+    <rect x="170" y="120" width="35" height="80" fill="#4F46E5"/>
+    <rect x="215" y="120" width="30" height="80" fill="#8B5CF6"/>
+    <rect x="255" y="120" width="35" height="80" fill="#6366F1"/>
+    <rect x="300" y="120" width="30" height="80" fill="#4F46E5"/>
+    <rect x="340" y="120" width="40" height="80" fill="#8B5CF6"/>
+  </g>
+  
+  <!-- Shelf dividers -->
+  <rect x="80" y="170" width="440" height="10" fill="#4F46E5" opacity="0.2"/>
+  <rect x="50" y="80" width="15" height="240" fill="#4F46E5" opacity="0.2"/>
+  <rect x="535" y="80" width="15" height="240" fill="#4F46E5" opacity="0.2"/>
+  
+  <!-- Person silhouette -->
+  <g transform="translate(450, 270)">
+    <circle cx="25" cy="25" r="25" fill="#4F46E5" opacity="0.6"/>
+    <rect x="15" y="60" width="20" height="40" fill="#4F46E5" opacity="0.6"/>
+    <rect x="0" y="80" width="15" height="20" fill="#4F46E5" opacity="0.5"/>
+    <rect x="35" y="80" width="15" height="20" fill="#4F46E5" opacity="0.5"/>
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="100" cy="40" r="15" fill="#6366F1" opacity="0.3"/>
+  <circle cx="500" cy="40" r="15" fill="#6366F1" opacity="0.3"/>
+  <circle cx="100" cy="360" r="15" fill="#6366F1" opacity="0.3"/>
+  <circle cx="500" cy="360" r="15" fill="#6366F1" opacity="0.3"/>
+</svg>

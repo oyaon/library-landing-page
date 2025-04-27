@@ -1,0 +1,27 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M40 10H20C14.4772 10 10 14.4772 10 20V40C10 45.5228 14.4772 50 20 50H40C45.5228 50 50 45.5228 50 40V20C50 14.4772 45.5228 10 40 10Z" fill="#3B82F6"/>
+  <path d="M30 18L42 30L30 42L18 30L30 18Z" fill="white"/>
+  <path d="M65 22V42H69V22H65Z" fill="#0F172A"/>
+  <path d="M65 15V19H69V15H65Z" fill="#0F172A"/>
+  <path d="M72 22V42H76V35C76 31 78 28 82 28C85 28 87 30 87 34V42H91V33C91 27 88 22 82 22C79 22 77 23 76 25V22H72Z" fill="#0F172A"/>
+  <path d="M95 22V42H99V35C99 31 101 28 105 28C108 28 110 30 110 34V42H114V33C114 27 111 22 105 22C102 22 100 23 99 25V22H95Z" fill="#0F172A"/>
+  <path d="M127 22H123V42H127V31C127 29 128 27 131 27C134 27 135 29 135 31V42H139V30C139 25 137 22 132 22C129 22 128 23 127 25V22Z" fill="#0F172A"/>
+  <path d="M150 26H146V22H150V18L154 16V22H159V26H154V36C154 39 155 41 158 41H160V45H157C152 45 150 42 150 37V26Z" fill="#0F172A"/>
+  <path d="M162 32C162 38 166 43 172 43C178 43 182 38 182 32C182 26 178 21 172 21C166 21 162 26 162 32ZM166 32C166 28 169 25 172 25C175 25 178 28 178 32C178 36 175 39 172 39C169 39 166 36 166 32Z" fill="#0F172A"/>
+</svg>
+<svg width="200" height="50" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50">
+  <!-- Base shape -->
+  <rect x="10" y="10" width="35" height="30" rx="2" fill="#4F46E5"/>
+  <rect x="20" y="5" width="15" height="5" rx="1" fill="#4F46E5"/>
+  
+  <!-- Book pages -->
+  <rect x="15" y="15" width="25" height="20" rx="1" fill="white"/>
+  <line x1="27" y1="15" x2="27" y2="35" stroke="#E0E7FF" stroke-width="0.5"/>
+  
+  <!-- Text -->
+  <text x="55" y="30" font-family="Arial, sans-serif" font-weight="bold" font-size="20" fill="#4F46E5">LIBRARY</text>
+  
+  <!-- Decorative line -->
+  <line x1="55" y1="35" x2="145" y2="35" stroke="#4F46E5" stroke-width="2"/>
+  <text x="148" y="30" font-family="Arial, sans-serif" font-size="12" fill="#6366F1">HUB</text>
+</svg>
