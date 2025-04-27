@@ -1,3 +1,4 @@
+```
 # Modern Library Landing Page
 
 A sleek, responsive landing page for a modern JavaScript library, built with Next.js and Tailwind CSS.

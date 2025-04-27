@@ -23,11 +23,11 @@ const features = [
 
 export default function Features() {
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-20 bg-secondary">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold mb-4">Powerful Features</h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">
+          <h2 className="text-3xl font-bold mb-4 text-foreground">Powerful Features</h2>
+          <p className="text-muted max-w-2xl mx-auto">
             Everything you need to build modern, robust applications
           </p>
         </div>
@@ -43,11 +43,11 @@ export default function Features() {
             >
               <Card className="h-full">
                 <div className="flex flex-col items-center text-center">
-                  <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 mb-4">
+                  <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center text-primary mb-4">
                     {feature.icon}
                   </div>
-                  <h3 className="text-xl font-medium mb-2">{feature.title}</h3>
-                  <p className="text-gray-600">{feature.description}</p>
+                  <h3 className="text-xl font-medium mb-2 text-foreground">{feature.title}</h3>
+                  <p className="text-muted">{feature.description}</p>
                 </div>
               </Card>
             </motion.div>

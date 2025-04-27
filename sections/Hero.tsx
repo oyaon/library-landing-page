@@ -4,7 +4,7 @@ import Button from '../components/ui/Button';
 
 export default function Hero() {
   return (
-    <section className="min-h-screen flex items-center relative overflow-hidden">
+    <section className="min-h-screen flex items-center relative overflow-hidden bg-background">
       <div className="absolute inset-0 z-0">
         <img 
           src="/hero-bg.jpg" 
@@ -21,10 +21,10 @@ export default function Hero() {
             transition={{ duration: 0.5 }}
           >
             <img src="/logo.svg" alt="Logo" className="h-16 mb-8" />
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent">
               Modern Library for Modern Developers
             </h1>
-            <p className="text-xl mb-8 text-gray-600">
+            <p className="text-xl mb-8 text-muted">
               A powerful, flexible, and intuitive library designed to solve complex problems with elegant solutions.
             </p>
             
